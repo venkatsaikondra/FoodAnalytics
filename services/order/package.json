@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "init": "^0.1.2",
+    "kafkajs": "^2.2.4"
+  }
+}

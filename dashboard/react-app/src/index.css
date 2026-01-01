@@ -1,0 +1,22 @@
+:root{
+  --bg: #f7f7f8;
+  --card: #fff;
+  --accent: #0f9d58;
+  --muted: #666;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:#111}
+.container{max-width:1000px;margin:0 auto;padding:24px}
+.navbar{background:linear-gradient(90deg, rgba(0,0,0,0.35), rgba(0,0,0,0.15));color:#fff;padding:18px 0}
+.navbar-inner{display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700;font-size:20px}
+.nav-links{display:flex;gap:14px}
+.link{color:rgba(255,255,255,0.9);text-decoration:none;padding:6px 10px;border-radius:6px}
+.link.active{background:rgba(255,255,255,0.12)}
+.app-main{padding:28px}
+.page{background:var(--card);border-radius:8px;padding:20px}
+.page-home p{color:var(--muted)}
+.form{display:flex;flex-direction:column;gap:12px;max-width:420px}
+.form label{display:flex;flex-direction:column;font-size:14px}
+.form input{padding:10px;border-radius:6px;border:1px solid #ddd}
+.form button{background:var(--accent);color:white;border:none;padding:10px 14px;border-radius:6px;cursor:pointer}
